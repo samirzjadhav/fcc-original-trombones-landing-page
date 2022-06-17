@@ -103,3 +103,41 @@ body {
   background-color: transparent;
   cursor: pointer;
 }
+
+#features {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid img {
+  margin-top: 1.6em;
+  margin-right: 2rem;
+  width: 48px;
+  height: 62px;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 94vh;
+  padding: 5px;
+}
+
+.desc h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.desc p {
+  font-size: 18px;
+  font-weight: 500;
+}
